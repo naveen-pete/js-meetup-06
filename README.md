@@ -41,12 +41,11 @@ Topics Covered
 Bring Your Own Device (BYOD)
 ----------------------------
 Laptop (Windows or Mac) with following software installed on it:  
-1. Text Editor (any one)  
-* Brackets (http://brackets.io/) (Preferred)  
-* Visual Studio Code (https://code.visualstudio.com)  
-
-2. Node.js (https://nodejs.org/en/)  
-3. MongoDB 3.2 (https://www.mongodb.com/download-center?jmp=nav#community)  
+1. Node.js (https://nodejs.org/en/)  
+2. MongoDB 3.2 (https://www.mongodb.com/download-center?jmp=nav#community)  
+3. Text Editor (any one)  
+   * Brackets (http://brackets.io/) (Preferred)  
+   * Visual Studio Code (https://code.visualstudio.com)  
 
 ---------------------------------------------------------------------
 GitHub
