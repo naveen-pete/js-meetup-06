@@ -1,14 +1,13 @@
 #JS Meetup #6:
-##All about MEAN.js - Hands on Workshop
-##(Beginner to Intermediate)
+##All about MEAN.js - Hands on Workshop  
+(Beginner to Intermediate)
 
 ------------------------------------------------
-**Date**: Saturday, September 24, 2016
-      10:00 AM to 5:00 PM
+**Date**: Saturday, September 24, 2016 (10:00 AM to 5:00 PM)
 
-**Venue**: Akamai Technologies
-       Salarpuria Softzone, 81/1, 82/1, Block-1
-	   3rd floor, Sarjapur Outer Ring Road
+**Venue**: Akamai Technologies  
+       Salarpuria Softzone, 81/1, 82/1, Block-1  
+	   3rd floor, Sarjapur Outer Ring Road  
 	   Bangalore
 
 ---------------------------------------------------------------------
@@ -42,18 +41,18 @@ Topics Covered
 ---------------------------------------------------------------------
 Bring Your Own Device (BYOD)
 ----------------------------
-Laptop (Windows or Mac) with following software installed on it:
-1. Text Editor (any one)
-	* Brackets (http://brackets.io/) (Preferred)
-	* Visual Studio Code (https://code.visualstudio.com)
-2. Node.js (https://nodejs.org/en/)
-3. MongoDB 3.2 (https://www.mongodb.com/download-center?jmp=nav#community)
+Laptop (Windows or Mac) with following software installed on it:  
+1. Text Editor (any one)  
+	* Brackets (http://brackets.io/) (Preferred)  
+	* Visual Studio Code (https://code.visualstudio.com)  
+2. Node.js (https://nodejs.org/en/)  
+3. MongoDB 3.2 (https://www.mongodb.com/download-center?jmp=nav#community)  
 
 ---------------------------------------------------------------------
 GitHub Repository
 -----------------
-**Name**: js-meetup-06
-**Url**: https://github.com/naveen-pete/js-meetup-06
+**Name**: js-meetup-06  
+**Url**: https://github.com/naveen-pete/js-meetup-06 
 
-* "**MEAN Stack - An Overview**" slide deck can be downloaded from "js-meetup-06/docs/" folder
+* "**MEAN Stack - An Overview**" slide deck can be downloaded from "js-meetup-06/docs/" folder 
 * The code for sample MEAN application can be downloaded from "js-meetup-06/mean-todo/" folder 
