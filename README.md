@@ -38,8 +38,8 @@ Topics Covered
 6. Examine a simple Todo application using all the 4 technologies
 
 ---------------------------------------------------------------------
-Bring Your Own Device (BYOD)
-----------------------------
+Bring Your Own Device (BYOD) [Pre-requisites]
+---------------------------------------------
 Laptop (Windows or Mac) with following software installed on it:  
 1. Node.js (https://nodejs.org/en/)  
 2. MongoDB 3.2 (https://www.mongodb.com/download-center?jmp=nav#community)  
@@ -53,6 +53,9 @@ GitHub
 **Repository Name**: js-meetup-06  
 **Url**: https://github.com/naveen-pete/js-meetup-06 
 
-**Note:**
-* "**MEAN Stack - An Overview**" slide deck can be downloaded from "__*js-meetup-06/docs/*__" folder 
-* The code for sample MEAN application can be downloaded from "__*js-meetup-06/mean-todo/*__" folder 
+> **Note:**
+
+> - "**MEAN Stack - An Overview**" and "**MEAN Stack - Todo App**" slide decks can be downloaded from "__*js-meetup-06/docs/*__" folder  
+> -  slide deck can be downloaded from "__*js-meetup-06/docs/*__" folder  
+> - The code for sample MEAN application can be downloaded from "__*js-meetup-06/mean-todo/*__" folder  
+> - After downloading / cloning the code on your PC, go to the folder containing the code and run "npm install" command  

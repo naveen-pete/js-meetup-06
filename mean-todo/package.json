@@ -1,7 +1,7 @@
 {
   "name"         : "mean-todo",
-  "version"      : "0.0.0",
-  "description"  : "Simple todo application.",
+  "version"      : "1.0.0",
+  "description"  : "MEAN demo - Todo application",
   "main"         : "server.js",
   "author"       : "Naveen Pete",
   "dependencies" : {
