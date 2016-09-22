@@ -56,6 +56,5 @@ GitHub
 > **Note:**
 
 > - "**MEAN Stack - An Overview**" and "**MEAN Stack - Todo App**" slide decks can be downloaded from "__*js-meetup-06/docs/*__" folder  
-> -  slide deck can be downloaded from "__*js-meetup-06/docs/*__" folder  
 > - The code for sample MEAN application can be downloaded from "__*js-meetup-06/mean-todo/*__" folder  
 > - After downloading / cloning the code on your PC, go to the folder containing the code and run "npm install" command  
