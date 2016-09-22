@@ -19,8 +19,7 @@ router.route('/')
         console.log('POST - todo object (req.body):', req.body);
     
         Todo.create({
-            text : req.body.text,
-            done : false
+            text : req.body.text
         }, function(err, todo) {
             if (err)
                 res.send(err);

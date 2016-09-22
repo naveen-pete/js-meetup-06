@@ -29,5 +29,5 @@ app.use('/api/todos', todoRoutes);
 
 // listen (start app with node server.js) ======================================
 app.listen(port, function (){
-    console.log("App listening on port " + port);
+    console.log("Todo App listening on port " + port);
 });
