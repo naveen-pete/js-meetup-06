@@ -53,5 +53,6 @@ GitHub
 **Repository Name**: js-meetup-06  
 **Url**: https://github.com/naveen-pete/js-meetup-06 
 
+**Note:**
 * "**MEAN Stack - An Overview**" slide deck can be downloaded from "__*js-meetup-06/docs/*__" folder 
 * The code for sample MEAN application can be downloaded from "__*js-meetup-06/mean-todo/*__" folder 
