@@ -1,5 +1,5 @@
-#JS Meetup #6:
-##All about MEAN.js - Hands on Workshop (Beginner to Intermediate)
+#JS Meetup #6: All About MEAN Stack
+###Hands on Workshop (Beginner to Intermediate)
 
 ------------------------------------------------
 **Date**: Saturday, September 24, 2016 (10:00 AM to 5:00 PM)
@@ -42,15 +42,15 @@ Bring Your Own Device (BYOD)
 ----------------------------
 Laptop (Windows or Mac) with following software installed on it:  
 1. Text Editor (any one)  
-	* Brackets (http://brackets.io/) (Preferred)  
-	* Visual Studio Code (https://code.visualstudio.com)  
+* Brackets (http://brackets.io/) (Preferred)  
+* Visual Studio Code (https://code.visualstudio.com)  
 2. Node.js (https://nodejs.org/en/)  
 3. MongoDB 3.2 (https://www.mongodb.com/download-center?jmp=nav#community)  
 
 ---------------------------------------------------------------------
-GitHub Repository
------------------
-**Name**: js-meetup-06  
+GitHub
+------
+**Repository Name**: js-meetup-06  
 **Url**: https://github.com/naveen-pete/js-meetup-06 
 
 * "**MEAN Stack - An Overview**" slide deck can be downloaded from "js-meetup-06/docs/" folder 
