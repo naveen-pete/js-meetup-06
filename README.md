@@ -1,6 +1,5 @@
 #JS Meetup #6:
-##All about MEAN.js - Hands on Workshop  
-(Beginner to Intermediate)
+##All about MEAN.js - Hands on Workshop (Beginner to Intermediate)
 
 ------------------------------------------------
 **Date**: Saturday, September 24, 2016 (10:00 AM to 5:00 PM)
@@ -23,10 +22,10 @@ Participant should have a good working knowledge of HTML, CSS and JavaScript.
 ---------------------------------------------------------------------
 Benefits
 --------
-At the end of this workshop, one will:
-1. Get an overview of MEAN stack
-2. Understand how the components of four technologies within the MEAN stack fit together
-3. Get a glimpse of various building blocks within each layer of the application and how they interact with each other
+At the end of this workshop, one will:  
+1. Get an overview of MEAN stack  
+2. Understand how the components of four technologies within the MEAN stack fit together  
+3. Get a glimpse of various building blocks within each layer of the application and how they interact with each other  
 
 ---------------------------------------------------------------------
 Topics Covered
