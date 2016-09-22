@@ -1,5 +1,5 @@
 angular.module('todoApp')
-    .controller('MainController', function($scope, todoService, logService) {
+    .controller('MainController', ['$scope', 'todoService', 'logService', function($scope, todoService, logService) {
         $scope.formData = {};
         $scope.todos = [];
 
@@ -43,4 +43,4 @@ angular.module('todoApp')
                 }
             );
         };
-    });
+    }]);

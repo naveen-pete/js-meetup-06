@@ -1,18 +1,18 @@
 angular.module('todoApp')
-    .factory('logService', function() {
+    .factory('logService', ['$log', function($log) {
         return {
             success: function(request, response) {
-                console.log('SUCCESS! Request:', request, 
+                $log.log('SUCCESS! Request:', request, 
                             ', Response data:', response.data, 
                             ', status:', response.status, 
                             ', statusText:', response.statusText);
             },
             
             failed: function(request, response) {
-                console.log('FAILED! Request:', request, 
+                $log.log('FAILED! Request:', request, 
                             ', Response data:', response.data, 
                             ', status:', response.status, 
                             ', statusText:', response.statusText);
             }
         }
-    });
+    }]);

@@ -12,6 +12,12 @@ var port = process.env.PORT || 3000;
 // load the config and connect to MongoDB database
 var database = require('./config/database')
 mongoose.connect(database.url);
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function () {
+    // we're connected!
+    console.log("Successfully connected to the database!");
+});
 
 app.use(express.static(__dirname + '/public')); // set the static files location /public/img will be /img for users
 app.use(morgan('dev')); // log every request to the console
