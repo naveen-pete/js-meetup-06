@@ -1,0 +1,54 @@
+<!-- THE DEFAULT VIEW OF TODO APP -->
+<div class="container">
+    <!-- TODO COUNT -->
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+            <h3>No. of Todos: <span class="label label-info">{{ todos.length }}</span></h3>
+        </div>
+    </div>
+
+    <!-- TODO LIST -->
+    <div id="todo-list" class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+
+            <!-- LOOP OVER THE TODOS IN $scope.todos -->
+            <div class="checkbox" ng-repeat="todo in todos">
+                <label>
+                    <input type="checkbox" 
+                            ng-click="deleteTodo(todo._id)"> {{ todo.text }}
+                </label>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FORM TO CREATE TODOS -->
+    <div id="todo-form" class="row">
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+            <form name="todoForm" ng-submit="createTodo()" novalidate>
+                <div class="form-group"
+                        ng-class="{ 'has-error': todoForm.todoText.$error.required && !todoForm.todoText.$pristine }">
+                    <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
+                    <input type="text" 
+                            id="todoText"
+                            name="todoText"
+                            class="form-control input-lg text-center"
+                            placeholder="Enter your Todo task" 
+                            ng-model="formData.text"
+                            required>
+                    <span ng-show="todoForm.todoText.$error.required && !todoForm.todoText.$pristine" 
+                            class="help-block">
+                        Todo text is required.
+                    </span>
+                </div>
+
+                <!-- createToDo() WILL CREATE NEW TODOS -->
+                <button type="submit" 
+                        class="btn btn-primary btn-lg" 
+                        ng-disabled="todoForm.$invalid">
+                    Add
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
