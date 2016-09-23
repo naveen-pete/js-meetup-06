@@ -5,6 +5,9 @@ angular.module('todoApp', ['ngRoute'])
                 controller: 'MainController',
                 templateUrl: '/views/main.html'
             })
+            .when('/about', {
+                controller: 'AboutController',
+                templateUrl: '/views/about.html'
+            })
             .otherwise( { redirectTo: '/' } );
-    }])
-;
+    }]);
