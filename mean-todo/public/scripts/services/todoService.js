@@ -1,5 +1,4 @@
 angular.module('todoApp')
-    // super simple service
     // each function returns a promise object 
     .factory('todoService', ['$http', function($http) {
         return {
